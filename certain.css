@@ -1,0 +1,534 @@
+* {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* CORES PADRÃO DA PAGINA  */
+.primary-bg-color {
+
+    background-color: black;
+
+}
+
+.secondary-bg-color {
+
+    background-color: aliceblue;
+
+}
+
+.tertiary-bg-color {
+
+    background-color: darkgrey;
+}
+
+.primary-color {
+
+    color: black;
+
+}
+
+.secondary-color {
+
+    color: white;
+
+}
+
+.tertiary-color {
+
+    color: red;
+
+}
+
+.sucess-color {
+
+    color: sienna;
+
+}
+
+
+
+/* BARRA DE NAVEGAÇÃO E PESQUISA */
+.navbar-brand {
+
+    font-weight: bold;
+    margin: 0 1rem;
+
+}
+
+#navbar-menu li {
+
+    padding: 1em 0.5em;
+
+
+}
+
+
+.nav-item:hover a {
+
+    color: antiquewhite;
+}
+
+.form-control {
+
+    border-radius: 0;
+    background-color: black;
+    margin-left: 1em;
+
+}
+
+
+.btn {
+
+    border-radius: 0;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+
+    background-color: gray;
+
+}
+
+.navbar li {
+
+    position: relative;
+
+}
+
+#qty {
+
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.navbar span {
+
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+#menu-mobile {
+    margin-bottom: 20px;
+    color: black;
+    background: white;
+    font-size: 25px;
+
+}
+
+.navbar-toggle-icon {
+
+    margin-top: 1rem;
+    border-radius: 0;
+
+}
+
+
+
+/* SLIDER */
+
+#slide-container {
+
+    margin-top: 5px;
+
+
+}
+
+#slide-container button {
+
+    background-color: black;
+
+
+}
+
+
+
+/* MINI BANNERS */
+
+#mini-banners {
+
+    z-index: 10;
+    margin-top: -1.2em;
+    margin-bottom: 1.5rem;
+
+}
+
+
+#mini-banners .col-12 {
+
+    z-index: 1;
+
+    padding: 1em;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid black;
+
+}
+
+
+@media(min-width:768px) {
+
+    #mini-banners .col-12 {
+
+        max-width: 30%;
+        margin-top: 1.4rem;
+
+    }
+
+}
+
+
+#mini-banners .col-12 a {
+
+    color: black;
+    margin-top: 8px;
+    font-weight: 900;
+    text-align: center;
+    padding: 10px 8px 10px 8px;
+    text-decoration: none;
+    background-color: tan;
+}
+
+
+#mini-banners .col-12:hover a {
+    background-color: aliceblue;
+
+}
+
+
+
+/* NOVOS PRODUTOS */
+
+#best-sellers {
+
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+
+
+#best-sellers h2 {
+    color: tan;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+    margin-bottom: 1em;
+}
+
+#card-1 .btn {
+
+    color: aliceblue;
+    border-color: tan;
+    border-radius: 0;
+    padding: 10px 15px 10px 15px;
+
+}
+
+
+#card-1 .btn:hover {
+
+    background-color: tan;
+
+}
+
+
+.card-tittle,
+.card-text {
+    text-align: center;
+
+}
+
+
+.card-tittle {
+
+    font-weight: bold;
+
+}
+
+
+#btn-3 {
+
+    align-items: center;
+    margin-left: 2.3em;
+
+}
+
+
+
+.card {
+
+    border-radius: 0;
+
+}
+
+
+.card-category {
+
+    text-align: center;
+
+}
+
+
+/* DESTAQUES */
+
+
+#destaques .row {
+
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3em;
+    background-color: black;
+    padding: 15px 0;
+
+}
+
+
+.desconto {
+    margin-top: 1em;
+    font-weight: bold;
+    color: red;
+}
+
+
+.desconto,
+.titulo-destaque,
+.valor-1 {
+
+    text-align: center;
+
+}
+
+
+.titulo-destaque {
+
+    font-weight: 900;
+    color: tan;
+    text-transform: uppercase;
+}
+
+
+#destaques .valor-1 {
+
+    color: white;
+}
+
+
+#destaques img {
+
+    border: 2px solid black;
+
+}
+
+
+#destaque-btn {
+
+    color: aliceblue;
+    background-color: gray;
+
+
+}
+
+
+#destaque-btn:hover {
+
+    background-color: tan;
+
+}
+
+
+
+/* NOVIDADES */
+
+
+#novidades-banner {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1em;
+
+}
+
+#novidades .title {
+    font-weight: 900;
+    color: sienna;
+    text-transform: uppercase;
+
+
+}
+
+#novidades-banner h3 {
+
+    color: tan;
+    margin: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+
+#novidades .card-category {
+
+    font-size: 12px;
+
+}
+
+#novidades .card-title {
+
+    color: black;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#novidades .card-text {
+
+    color: darkblue;
+
+}
+
+.card .btn {
+
+    color: aliceblue;
+    padding: 10px 0px;
+
+}
+
+#novidades .card {
+
+    margin-top: 1em;
+
+}
+
+
+
+/* FOOTER */
+
+#footer {
+
+    background-color: tan;
+    padding: 2em 4em;
+    margin: 3em 0 0 0em;
+
+}
+
+#footer-links,
+#footer-center,
+#footer-info {
+
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+
+#footer-links li {
+
+    margin-bottom: 1em;
+
+
+}
+
+#footer-links a {
+
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+@media(min-width:768px) {
+
+    #footer-center {
+
+        border-left: 1px solid;
+        border-right: 1px solid;
+
+
+    }
+}
+
+
+@media(min-width:768px) {
+
+    #footer-center h2 {
+
+        margin: 0 0 1em 0;
+
+    }
+}
+
+#footer-center h2 {
+
+    font-weight: 900;
+    color: black;
+    margin: 0.5em 0 0.5em 0;
+
+}
+
+#footer-center .store-phone {
+
+    color: blue;
+    margin: 0.5em 0 1em 0;
+
+}
+
+
+#footer-center .duvida {
+
+    color: black
+}
+
+
+.footer-column h3 {
+
+    color: black;
+    font-weight: bold;
+}
+
+#footer-info a {
+
+    color: darkblue;
+
+}
+
+#footer-info a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+/* copyrigth */
+
+#copy {
+
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#copy p {
+
+    color: aliceblue;
+    margin: auto;
+
+}
+
+/* ========================================================================== */
